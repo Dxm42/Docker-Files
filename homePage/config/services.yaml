@@ -1,0 +1,45 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/services
+
+- Infrastructure and Data:
+    - NextCloud:
+        icon: si-nextcloud-#0082C9
+        href: http://IP/
+        siteMonitor: http://IP/
+
+    - Portainer:
+        icon: si-portainer-#13BEF9
+        href: https://IP:9443/#!/auth
+        siteMonitor: https://IP:9443/#!/auth
+- Utilities:
+    - Pi-Hole:
+        icon: si-pi-hole-#96060C
+        href: http://IP/admin/login.php
+        description: DNS Server
+        siteMonitor: http://IP/admin/login.php
+        widget:
+            type: pihole
+            url: http://IP
+            version: 5 # required if running v6 or higher, defaults to 5
+            key: APIKEY # optional
+
+- Monitoring:
+    - Uptime Kuma:
+        icon: si-uptimekuma-#5CDD8B
+        href: http://IP/
+        description: Servers 😎
+        siteMonitor: http://IP/
+        widget:
+            type: uptimekuma
+            url: http://IP
+            slug: statuspagelug
+
+              #   - Prometheus:
+              #        icon: si-prometheus-#E6522C
+              #        href: http://IP:9090/
+              #        description: Metriks 😎
+              #        siteMonitor: http://IP:9090/
+              #        widget:
+              #            type: prometheus
+              #            url: http://IP:9090

@@ -1,0 +1,42 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/bookmarks
+
+- Developer:
+    - Github:
+        - abbr: GH
+          icon: si-github-#181717
+          href: https://github.com/dxm42
+
+    - Home Page Docs:
+        - abbr: HPD
+          icon: si-github-#181717
+          href: https://gethomepage.dev/latest/
+    - Home Page Icons:
+        - abbr: HPI
+          icon: si-simpleicons-#111111
+          href: https://simpleicons.org/
+- CTFs:
+    - Hack The Box:
+        - abbr: HTB
+          icon: si-hackthebox-#9FEF00
+          href: https://account.hackthebox.com/login
+    - TryHackMe:
+        - abbr: THM
+          icon: si-tryhackme-#212C42
+          href: https://tryhackme.com/
+    - Offensive Security:
+        - abbr: OSCP
+          icon: si-kalilinux-#557C94
+          href: https://www.offsec.com/labs/
+
+- Triks:
+    - Pentest Cheat Sheets:
+        - abbr: TR
+          icon: si-counterstrike-#000000
+          href: https://github.com/Dxm42/Pentest-Cheat-Sheets
+    - TryHackMe Free Rooms:
+        - abbr: THMFR
+          icon: si-tryhackme-#212C42
+          href: https://github.com/winterrdog/tryhackme-free-rooms
+
